@@ -1,0 +1,16 @@
+<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<text x="100" y="10" font-family="calibri" font-size="5">Amount of Pie in Pie Chart</text>
+
+<defs>
+    <clipPath id="cut-off-bottom">
+      <rect x="120" y="0" width="120" height="360" />
+    </clipPath>
+    <clipPath id="cut-off-left">
+      <rect x="120" y="0" width="120" height="360"/>
+      </clipPath>
+  </defs>
+
+  
+  <circle cx="120" cy="80" r="50" fill="green" clip-path="url(#cut-off-left)" />
+  <circle cx="120" cy="80" r="50" fill="blue" clip-path="url(#cut-off-bottom)" />
+</svg>
